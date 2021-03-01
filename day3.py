@@ -1,14 +1,3 @@
-inp=266330
-edge=1
-total=edge*edge
-while total<inp:
-    edge=edge+2
-    total=edge*edge
-step=(inp-((edge-2)*(edge-2)))%(edge-1)
-step=abs(step-((edge-1)/2))
-step=step+(edge-1)/2
-print(step)
-
 def retn(x, y):
     e=max(abs(x), abs(y))
     t=(e-1)*2+1
@@ -105,7 +94,3 @@ while(goon):
         goon=False
         print(p)
     i+=1
-
-
-
-
